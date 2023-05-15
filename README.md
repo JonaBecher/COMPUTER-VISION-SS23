@@ -1,7 +1,6 @@
-# COMPUTER-VISION-SS23
+# COMPUTER-VISION-SS23 Projekt I
 Maße (h x w):
-- Messer (groß): 212mm x 20mm
+- Inbus: 65mm x 26mm
+- Gabel (klein): 150mm x 21mm
 - Löffel (klein): 147mm x 26mm
-- Löffel (groß): 208mm x 44mm
-- Gabel (klein): 154mm x 25mm
-- Gabel (Groß): 207 x 28mm
+- Messer: 212mm x 20mm
