@@ -9,7 +9,7 @@ def compute_contours(img, log=False):
     edges = cv2.Canny(img, 50, 200)
     cnts, hierarchy = cv2.findContours(edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 
-    if log: 
+    if log:
         cv2.drawContours(orig_img, cnts, -1, (0, 255, 0), 3)
         cv2.imshow('contours', orig_img)
 
@@ -36,7 +36,7 @@ def get_contours_dimension(cnt):
 
 
 EURO_COIN_DIAMETER_MM = 23.25  # diameter of reference object
-orig_img = cv2.imread("img/alles6.jpeg")
+orig_img = cv2.imread("img/gegenstaende.jpeg")
 img_gray = cv2.cvtColor(orig_img, cv2.COLOR_BGR2GRAY)
 cv2.imshow("Gray", img_gray)
 img_blur = cv2.GaussianBlur(img_gray, (3,3), 0)
